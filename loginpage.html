@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            display: flex;
+            height: 100vh;
+            justify-content: center;
+            align-items: center;
+        }
+        .redbox{
+            background-color: red;
+            height: 60vh;
+            width: 30vw;
+            border-radius: 30px;
+        }
+        form{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            gap: 50px;
+        }
+        form label{
+            font-size: 20px;
+
+        }
+        form input{
+            width: 250px;
+            height: 30px;
+            border-radius: 20px;
+            border: none;
+        }
+        .inputs{
+            display: flex;
+            flex-direction: column;
+        }
+        .lgnbtn{
+            height: 50px;
+            width: 150px;
+            border-radius: 40px;
+            border: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="redbox">
+        <form action="index.html">
+            <div class="inputs">
+            <label for="Email">Email: </label>
+            <input type="email">
+            </div>
+            <div class="inputs">
+            <label for="Password">Password: </label>
+            <input type="password">
+            </div>
+            <button class="lgnbtn">Login</button>
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .animated{
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+        }
+        *{
+            padding:0;
+            margin: 0;
+        }
+        nav ul{
+            display: flex;
+            list-style: none;
+            gap: 10px;
+            justify-content: center;
+            align-items: center;
+
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: rgb(231, 80, 80);
+            color: white;
+            height: 50px;
+        }
+         img{
+            height: 30px;
+            width: 100px;
+        }
+        .Favourites p{
+            font-size: 40px;
+            text-align: center;
+
+        }
+        .Favourites{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 92vh;
+            gap: 40px;
+            background-size: cover;
+            background-attachment: fixed;
+            background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/6508d53d-9f08-4740-a8a1-d26e4506f78a/detgxql-fdd62a85-790b-4c7d-9fc0-4a10b2c2e994.jpg/v1/fill/w_1280,h_1811,q_75,strp/spider_man__no_way_home_poster_by_marvelmango_detgxql-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTgxMSIsInBhdGgiOiJcL2ZcLzY1MDhkNTNkLTlmMDgtNDc0MC1hOGExLWQyNmU0NTA2Zjc4YVwvZGV0Z3hxbC1mZGQ2MmE4NS03OTBiLTRjN2QtOWZjMC00YTEwYjJjMmU5OTQuanBnIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.maNMIRaeL8L8bVj39SQWfQfcla8NtwKOAN4oh6zh0Eg");
+        }
+        .Drama{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 92vh;
+            gap: 40px;
+            background-size: cover;
+            background-attachment: fixed;
+            background-image: url("https://i.pinimg.com/originals/0d/bb/e3/0dbbe3e3fd566c181938a7d320508488.jpg");
+        }
+    </style>
+</head>
+<body>
+    <nav class="ytnav">
+        <img src="https://th.bing.com/th/id/OIP.aByvAl4Fl4Dk3N9fA3IudwHaFM?rs=1&pid=ImgDetMain" alt="">
+        <ul>
+            <li>Home</li>
+            <li>Favourites</li>
+            <li>Popular</li>
+            <li>Gaming</li>
+        </ul>
+        <a href="loginpage.html"><button>Login</button></a>
+    </nav>
+    <div class="Favourites">
+    <p>Favourites in Action</p>
+    <div class="animated">
+        <iframe src="https://www.youtube.com/embed/ioeoCbDiMvE" frameborder="0"></iframe>
+        <iframe src="https://www.youtube.com/embed/ioeoCbDiMvE" frameborder="0"></iframe>
+        <iframe src="https://www.youtube.com/embed/ioeoCbDiMvE" frameborder="0"></iframe>
+    </div>
+    </div>
+    <div class="Drama">
+    <p>Favourites in Drama</p>
+    <div class="animated">
+        <iframe src="https://www.youtube.com/embed/ioeoCbDiMvE" frameborder="0"></iframe>
+        <iframe src="https://www.youtube.com/embed/ioeoCbDiMvE" frameborder="0"></iframe>
+        <iframe src="https://www.youtube.com/embed/ioeoCbDiMvE" frameborder="0"></iframe>
+    </div>
+    </div>
+</body>
+</html>
